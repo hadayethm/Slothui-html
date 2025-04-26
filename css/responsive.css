@@ -1,0 +1,169 @@
+
+
+@media (max-width: 576px) {
+    .nav-links, .auth-buttons {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 70px;
+        right: 30px;
+        width: 200px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        z-index: 9999;
+      }
+      .auth-buttons {
+        top: 281px;
+      }
+    
+      .nav-links.show{
+        display: flex;
+      }
+   .auth-buttons.show {
+        display: flex;
+      }
+    
+      .menu-icon {
+        display: block;
+      }
+   
+}
+
+@media (max-width: 480px) {
+    .counter_area_wrapper {
+        display: inherit;
+    }
+    .our_address_wrapper {
+        display: inherit;
+    }
+    .hero_heading p {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .hero_heading_area {
+        grid-row-gap: 14px;
+        max-width: 92%;
+        display: flex;
+    }
+    .ptb-100 {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    .logo_grid img {
+        max-width: 101px;
+    }
+    .logo_grid {
+        justify-content: initial;
+        gap: 15px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    .sction_heading_center, .work_result_text {
+        max-width: 95%;
+    }
+    .features_item_wrapper {
+        display: inherit;
+    }
+    .features_item {
+        width: 100%;
+    }
+    .counter_item {
+        padding-right: 0;
+        margin-right: 0;
+        border-right: 0;
+        border-bottom: 2px solid #CBD5E1;
+        padding-bottom: 35px;
+        margin-bottom: 35px;
+    }
+    .container{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .counter_item h4 {
+        padding-top: 30px;
+    }
+    .sction_heading_left {
+        max-width: 100%;
+    }
+    .procrastinators_wrapper {
+        display: inline;
+        padding-top: 50px;
+    }    
+    .procrastinators_text {
+        width: 100%;
+        padding-top: 50px;
+    }
+    .procrastinators_text_item {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 20px 30px;
+    }
+    .testimonials_wrapper {
+        display: inherit;
+        padding-top: 50px;
+    }
+    .testimonials_item {
+        width: 100%;
+    }
+    .address_item {
+        margin-bottom: 20px;
+    }
+    .footer_wrapper {
+        display: inherit;
+        padding-bottom: 30px;
+    }
+    .faqs_wrapper {
+        width: 100%;
+    }
+    .faq_question img{
+        width: 25px;
+        height: 25px;
+    }
+    .faq_question h5 {
+        padding-left: 10px;
+        width: 83%;
+    }
+    .faq_answer p{
+        font-size: 14px;
+    }
+    .faq_question {
+        align-items: center;
+    }
+    .app_download_left {
+        width: 98%;
+    }
+    .app_download_img {
+        position: inherit;
+        padding-top: 60px;
+    }
+    #app_download_area {
+        padding: 65px 0;
+    }
+    .button_wrapper a {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .footer_item {
+        margin-bottom: 30px;
+    }
+    .copyright_area {
+        display: inherit;
+        padding-top: 35px;
+        text-align: center;
+    }
+    .navbar {
+        padding: 15px 15px;
+    }
+}
+
